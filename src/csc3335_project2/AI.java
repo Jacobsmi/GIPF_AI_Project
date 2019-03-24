@@ -50,4 +50,4 @@ public class AI implements GipfPlayable {
     }
 
 }
-//CommitK
+//Commit
