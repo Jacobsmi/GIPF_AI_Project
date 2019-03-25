@@ -24,7 +24,7 @@ public class Random_Agent implements GipfPlayable {
     public String makeGipfMove(int curPlayer) {
         String startLocation = edgeSpots[rng.nextInt(edgeSpots.length)];
         Integer dir = rng.nextInt(6);
-        System.out.println(startLocation + " " + Integer.toString(dir));
+        //System.out.println(startLocation + " " + Integer.toString(dir));
         return startLocation + " " + Integer.toString(dir);
         //return "i 1 5";
     }
